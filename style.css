@@ -17,18 +17,8 @@ body{
   height: 100%;
   background: #4b4276;
   padding: 30px 0px;
-  /*position: fixed;
-  top: 0;
-  left: 0;
-  width: 18%;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  transition: all 0.5s ease;
-  padding: 40px 5px;*/
-  /*background-color: #fffff2;*/
 }
+
 .navbar__logo {
   position: relative;
   display: flex;
@@ -105,9 +95,6 @@ body{
   flex-direction: column;
   margin-left: 200px;
   padding: 0px 60px;
-  /*overflow-y: scroll;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;*/
 }
 
 .main__container{
@@ -185,7 +172,17 @@ body{
 .about__list{
   margin: 25px 0;
 }
-.about__list li:hover{
+
+.about__list #about__emp:hover{
+  transform: scale(1.02);
+  background-color: #009879;
+  color: #ffffff;
+  font-weight: bold;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.about__list #about__emp:hover > #main__emp{
   transform: scale(1.02);
   background-color: #009879;
   color: #ffffff;
